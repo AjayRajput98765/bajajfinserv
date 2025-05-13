@@ -5,8 +5,8 @@ def generate_webhook():
     headers = {"Content-Type": "application/json"}
     data = {
         "name": "Ajay Rajput",
-        "regNo": "0827CA241003",
-        "email": "ajayrajput98263@gmail.com"
+        "regNo": "1003",
+        "email": "ajayrajput@gmail.com"
     }
 
     response = requests.post(url, json=data, headers=headers)
